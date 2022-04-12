@@ -81,6 +81,11 @@ body {
   margin: 0;
 }
 
+.font {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+}
+
 .container {
   position: fixed;
   width: 100%;
@@ -222,8 +227,65 @@ body {
   height: 100vh;
 
 }
-
-.line {
-  width: 400px;
-  height: 200px;
+.container-sec{
+  position: absolute;
+  width: 100%;
 }
+/* .line {
+  position: relative;
+  top: 3.5em;
+  width: 26%;
+  height: .25em;
+  background-color: white;
+  
+} */
+
+/* .thinked {
+  position: relative;
+  top: 2em;
+  text-align: center;
+  color: white;
+  
+} */
+
+.separator{
+  display:flex;
+  align-items: center;
+  padding-top: 2em;
+}
+
+.separator .line{
+  height: 3px;
+  flex: 0.5;
+  background-color: white;
+}
+
+.separator .thinked{
+  padding: 0 2rem;
+  color: white;
+}
+
+.first-desc {
+  position: relative;
+  top: 2em;
+  font-family: 'Lato', sans-serif;
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.second-desc {
+  position: relative;
+  top: 5em;
+  font-family: 'Lato', sans-serif;
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  max-width: 55rem;
+  margin: 0 auto;
+}
+
+
+
